@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "openSans";
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "openSans";
+  background-color: #fafafa;
+  overflow: hidden;
+  transition: 3s ease-in-out;
+  background: linear-gradient(45deg, #9594ce, #111),
+    url("../assets/images/3.jpg") center no-repeat fixed;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+.login__bg__img {
+  width: 100%;
+  height: 100vh;
+}
+
+.login__left__part {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh;
+}
+
+.login__form__card {
+  width: 80% !important;
+}
+
+input,
+select {
+  padding: 10px 15px !important;
+  transition: 0.3s ease-in-out !important;
+}
+
+.view__hide__password {
+  cursor: pointer;
+}
+
+.login__btn {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 20px;
+  transition: 0.3s ease-in-out;
+  background-color: #1c18cd;
+}
+
+.login__btn:hover {
+  background-color: #1a1749;
+}
+
+.primary__color {
+  background-color: #1c18cd;
+}
+
+.primary__text__color {
+  color: #1c18cd;
+}
+
+.bold__font {
+  font-weight: bold;
+}
